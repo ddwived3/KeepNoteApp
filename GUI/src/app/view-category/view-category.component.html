@@ -1,0 +1,8 @@
+<div class="keep-c-note-container" *ngIf="categories?.length > 0">  
+	<!-- Include the notes collection with each note rendered as a separate NoteComponent -->
+	<div class="notes-wrapper">
+		<div *ngFor="let cat of categories">
+      <label>{{cat}}</label>
+    </div>
+	</div>
+</div>

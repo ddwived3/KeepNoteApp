@@ -1,0 +1,10 @@
+.notes-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.notes-wrapper > * {
+  flex: 0 0 28%;
+  margin: 10px;
+}

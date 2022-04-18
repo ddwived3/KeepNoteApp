@@ -1,0 +1,18 @@
+<!-- to display the error message -->
+<label class="error-message"><span *ngIf="submitMessage">{{ submitMessage }}</span></label>
+<!-- Registration form -->
+<div class="login-form">
+  <mat-form-field class="login-field">
+    <label>Name: </label>
+    <input type="text" matInput name="name" class="name" [formControl]="name" required/>
+    <mat-error *ngIf="name.invalid">{{getNameErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field class="login-field">
+    <label>Contact: </label>
+    <input type="text" matInput name="contact" class="contact" [formControl]="contact" required/>
+    <mat-error *ngIf="contact.invalid">{{getContactErrorMessage()}}</mat-error>
+  </mat-form-field>  
+  <div class="login-btn">
+    <button mat-raised-button (click)="registrationSubmit()" color='primary'>Submit</button>
+  </div>
+</div>

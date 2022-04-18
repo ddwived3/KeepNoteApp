@@ -1,0 +1,24 @@
+.cat-form {
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 20px;
+    width: 40vw;
+  }
+  .cat-field {
+    width: 100%;
+  }
+  .cat-btn {
+    text-align: center;
+  }
+  .error-message {
+    display: block;
+    margin: 15px;
+  }
+  .error-message span {
+    background-color: #f8d7da;
+    border: 1px solid #721c24;
+    color: #721c24;
+    display: block;
+    padding: 15px 10px;
+  }
+  

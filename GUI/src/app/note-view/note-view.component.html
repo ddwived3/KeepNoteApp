@@ -1,0 +1,8 @@
+<div class="keep-c-note-container" *ngIf="notes?.length > 0">
+  
+	<!-- Include the notes collection with each note rendered as a separate NoteComponent -->
+	<div class="notes-wrapper">
+		<app-note [note]="note" *ngFor="let note of notes"></app-note>
+	</div>
+
+</div>

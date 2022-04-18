@@ -1,0 +1,58 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Read Angular5 blog",
+      "description": "Shall do at 6 pm",
+      "state": "completed"
+    },
+    {
+      "id": 2,
+      "title": "Call Ravi",
+      "description": "Track the new submissions",
+      "state": "started"
+    },
+    {
+      "title": "Capitalism",
+      "description": "Mark Twain",
+      "id": 3,
+      "state": "completed"
+    },
+    {
+      "title": "Jeevan",
+      "description": "Meeting @5PM ",
+      "id": 4,
+      "state": "started"
+    },
+    {
+      "title": "Meeting with Team",
+      "description": "@5PM Monday",
+      "id": 5,
+      "state": "completed"
+    },
+    {
+      "title": "test",
+      "description": "test2",
+      "state": "completed",
+      "id": 6
+    },
+    {
+      "title": "Read Angular 1 blog",
+      "description": "Shall do at 10.30 pm",
+      "state": "not-started",
+      "id": 7
+    },
+    {
+      "title": "Read Angular 1 blog",
+      "description": "Shall do at 10.30 pm",
+      "state": "not-started",
+      "id": 8
+    },
+    {
+      "title": "Dmart",
+      "description": "1. Sugar\n2. Surf",
+      "state": "not-started",
+      "id": 9
+    }
+  ]
+}

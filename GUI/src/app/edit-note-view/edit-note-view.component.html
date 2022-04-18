@@ -1,0 +1,21 @@
+<!-- Label to display any error messages -->
+<label class="error-message">{{ errMessage }}</label>
+
+
+<mat-form-field class="formfield"> 
+  <input [(ngModel)]="note.title" name="editTitle" matInput placeholder="Title" type="text">
+</mat-form-field>
+<mat-form-field class="formfield">
+  <textarea [(ngModel)]="note.description" name="editText" matInput placeholder="Text"></textarea>
+</mat-form-field>
+<mat-form-field>
+    <!-- (selectionChange)="onChange($event.value.name)"  -->
+  <mat-select name="category" placeholder="Select Category" [(ngModel)]="note.category" class="formfield">
+      <mat-option *ngFor="let category of categories" [value]="category.name">
+        {{ category.name }}
+      </mat-option>
+  </mat-select>
+</mat-form-field>
+<div class="keep-c-done-wrapper">
+  <button mat-raised-button color='warn' (click)="onSave()">Save</button>
+</div>

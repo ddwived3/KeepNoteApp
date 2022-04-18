@@ -1,0 +1,19 @@
+.notes-container {
+  width: 50vw;
+  margin: auto;
+}
+.note-title, .note-text {
+  width: 100%;
+}
+.error-message {
+  display: block;
+  margin: 15px;
+  color: red;
+}
+.error-message span {
+  background-color: #f8d7da;
+  border: 1px solid #721c24;
+  color: #721c24;
+  display: block;
+  padding: 15px 10px;
+}

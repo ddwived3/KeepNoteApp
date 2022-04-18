@@ -1,0 +1,17 @@
+<!-- to display the error message -->
+<label class="error-message"><span *ngIf="submitMessage">{{ submitMessage }}</span></label>
+<!-- Registration form -->
+<div class="cat-form">
+  <mat-form-field class="cat-field">
+    <label>Name: </label>
+    <input type="text" matInput name="name" class="name" [formControl]="name" required/>
+    <mat-error *ngIf="name.invalid">{{getNameErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field class="cat-field">
+    <label>Public Category: </label>
+    <input type="checkbox" matInput name="isPublic" class="contact" [formControl]="isPublic"/>    
+  </mat-form-field>  
+  <div class="cat-btn">
+    <button mat-raised-button (click)="categorySubmit()" color='primary'>Submit</button>
+  </div>
+</div>

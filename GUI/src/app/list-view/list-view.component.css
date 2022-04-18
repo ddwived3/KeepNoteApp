@@ -1,0 +1,30 @@
+.keep-c-list-container > label {
+  font-weight: bold;
+  margin: 10px 20px;
+  font-size: 26px;
+}
+.notes-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.notes-wrapper > * {
+  flex: 0 0 100%;
+  margin: 10px;
+}
+.notStarted {
+	color: green;
+	font-weight: bold;
+}
+
+.started {
+	color: purple;
+	font-weight: bold;
+}
+
+.completed {
+	color: red;
+	font-weight: bold;
+}
+
